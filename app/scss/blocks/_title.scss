@@ -1,0 +1,32 @@
+.headet__title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 25px;
+        font-size: 36px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 20px;
+        font-size: 34px;
+    }
+
+    /* XS Mobile */
+    @media (max-width: 599px) {
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+
+} 
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}

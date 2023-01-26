@@ -1,0 +1,28 @@
+.orderform
+    .container 
+        .orderform__title 
+            h2#order.title LevelUp
+        .orderform__time 
+                .timer.timer-1
+                    .timer__items
+                        .timer__item.timer__minutes 00
+                        .timer__item.timer__seconds 00
+        .orderform__info    
+
+            .orderform__column
+                .orderform__price 
+                    .price__old
+                        span 2000руб
+                    .price__new
+                        span 1500руб
+                        
+                .orderform__data
+                    textarea.data__name(placeholder='Name Name')
+                    input.data__phone(type='number' placeholder='89*********')
+
+                    button.button Отправить
+
+            .orderform__img 
+                img(src="./img/prod/prod.png", alt="prod", width="200")
+        
+        

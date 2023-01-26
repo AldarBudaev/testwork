@@ -1,0 +1,29 @@
+.section-clients {
+    background: linear-gradient(0deg, rgb(95, 233, 233), rgb(207, 198, 154) ); 
+}
+
+
+.section-clients__header {
+    text-align: center;
+}
+
+.section-clients__slider{
+    margin-left: auto;
+    margin-right: auto;
+    width: 770px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 720px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 375px;
+    }
+
+    /* XS Mobile */
+    @media (max-width: 599px) {
+        width: 290px;   
+    }
+}

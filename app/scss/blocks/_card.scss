@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70px;
+    row-gap: 5px;
+
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden; 
+
+        /* Mobile */
+        @media (max-width: 499px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+   
+}
+
+.card__title {
+
+}

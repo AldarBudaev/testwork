@@ -1,0 +1,20 @@
+.price__old {
+    span {
+        font-size: 14px;
+        text-decoration: line-through;
+    }
+}  
+
+.price__new {
+    span {
+        font-size: 18px;
+        color: #000;
+        transition: 0.2s ease-in;
+        
+        
+        &:hover {
+            font-size: 22px;
+            color: #a41616;
+        }
+    }
+}

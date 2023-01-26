@@ -1,0 +1,59 @@
+.orderform {
+    padding: 60px 0 50px;
+    background: linear-gradient(0deg, rgb(139, 27, 104),rgb(205, 220, 93));
+}
+
+.orderform__title {
+    text-align: center;
+    margin-bottom: 10px;
+
+} 
+
+.orderform__time {
+    text-align: center;
+    margin-bottom: 30px;
+
+    span {
+        font-size: 30px;
+    }
+} 
+
+.orderform__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.orderform__column {
+    width: 200px;
+}
+
+.orderform__price {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    
+} 
+
+.orderform__data {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+.orderform__img {
+    img {
+        width: 130px;
+    }
+} 
